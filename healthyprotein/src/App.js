@@ -1,8 +1,11 @@
-
+import Pages from './pages/Pages';
 
 function App() {
   return (
-    <h1>Hej</h1>
+    <div>
+        <h1>HEj</h1>
+        <Pages />
+    </div>
   );
 }
 
