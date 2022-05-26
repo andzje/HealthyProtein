@@ -1,9 +1,12 @@
 import Pages from './pages/Pages';
+import Nav from './components/Nav';
+import Capsule from './components/Capsule';
 
 function App() {
   return (
     <div>
-        <h1>HEj</h1>
+        <Nav />
+        <Capsule />
         <Pages />
     </div>
   );

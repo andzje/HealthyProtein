@@ -1,5 +1,5 @@
 import Chicken from "../components/Chicken";
-import Popular from "../components/Popular";
+import Recipes from "../components/Recipes";
 
 
 import React from 'react'
@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
         <Chicken />
-        <Popular />
+        <Recipes />
     </div>
   )
 }

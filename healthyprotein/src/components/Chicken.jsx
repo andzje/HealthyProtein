@@ -1,7 +1,5 @@
 function Chicken() {
-  return (
-    <div>Chicken</div>
-  )
+  return <div>Chicken</div>;
 }
 
-export default Chicken
+export default Chicken;
