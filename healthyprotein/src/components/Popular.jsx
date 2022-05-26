@@ -1,6 +1,8 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function Popular() {
+
+    const [popular, setPopular] = useState([]);
 
     useEffect(() => {
         getPopular();
@@ -9,11 +11,20 @@ function Popular() {
     const getPopular = async () => {
         const api = await fetch(`https://tomat-pqblx.ondigitalocean.app/recipes`);
         const data = await api.json();
-        console.log(data);
+        setPopular(data)
     }
 
   return (
-    <div>Popular</div>
+    <div>
+        
+        {popular.map((recipe) => {
+            return (
+                <div key={recipe._id}>
+                    <p>{recipe.title}</p>
+                </div>
+            );
+        })}
+    </div>
   )
 }
 
