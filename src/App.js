@@ -1,3 +1,4 @@
+import React from 'react';
 import Pages from './pages/Pages';
 import Nav from './components/Nav';
 import Capsule from './components/Capsule';
