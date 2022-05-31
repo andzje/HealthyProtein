@@ -11,7 +11,7 @@ function Pages() {
         <Route path="/cuisine" element={<Cuisine />} />
     </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
 export default Pages
