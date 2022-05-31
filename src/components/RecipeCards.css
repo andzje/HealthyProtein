@@ -1,0 +1,12 @@
+.wrapper {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45ch, 1fr));
+    gap:2rem;
+}
+.card {
+
+}
+.card img {
+    border-radius: 0;
+}

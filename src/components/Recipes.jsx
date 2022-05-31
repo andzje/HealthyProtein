@@ -1,6 +1,8 @@
 import React from 'react';
 import { useEffect, useState } from "react";
+import RecipeCards from './RecipeCards';
 import "./Recipes.css";
+
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
@@ -13,21 +15,8 @@ function Recipes() {
     const api = await fetch(`https://tomat-pqblx.ondigitalocean.app/recipes`);
     const data = await api.json();
     setRecipes(data);
-    console.log(data);
   };
-
-  return (
-    <div className="wrapper">
-      {recipes.map((recipe) => {
-        return (
-          <div className="card" key={recipe._id}>
-            <p>{recipe.title}</p>
-            <img src={recipe.imageUrl} alt={recipe.title} />
-          </div>
-        );
-      })}
-    </div>
-  );
+  return <RecipeCards recipes={recipes}/>
 }
 
 export default Recipes;
