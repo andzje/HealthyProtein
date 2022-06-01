@@ -1,8 +1,6 @@
-import React from 'react';
+import React from "react";
 import { useEffect, useState } from "react";
-import RecipeCards from './RecipeCards';
-import "./Recipes.css";
-
+import RecipeCards from "./RecipeCards";
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
@@ -15,8 +13,10 @@ function Recipes() {
     const api = await fetch(`https://tomat-pqblx.ondigitalocean.app/recipes`);
     const data = await api.json();
     setRecipes(data);
+    console.log(data);
   };
-  return <RecipeCards recipes={recipes}/>
+
+  return <RecipeCards recipes={recipes} />;
 }
 
 export default Recipes;

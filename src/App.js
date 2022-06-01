@@ -3,6 +3,7 @@ import Pages from './pages/Pages';
 import Nav from './components/Nav';
 import Category from './components/Category';
 import { BrowserRouter } from 'react-router-dom';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <BrowserRouter>
         <Nav />
         <Category />
+        <Search />
         <Pages />
         </BrowserRouter>
     </div>
