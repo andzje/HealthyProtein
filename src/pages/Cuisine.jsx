@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { useEffect, useState } from "react";
+import RecipeCards from '../components/RecipeCards';
 import "./Cuisine.css"
 
 function Cuisine() {
@@ -10,17 +10,27 @@ function Cuisine() {
   const getCuisine = async (name) => {
 
     const data = await fetch(`https://tomat-pqblx.ondigitalocean.app/categories/${name}/recipes`)
-    const recipes = await data.json();
-    setCuisine(recipes.results)
+    const recipes = await data.json()
+    setCuisine(recipes)
+    console.log(recipes)
   }
 
   useEffect (() => {
     getCuisine(params.type)
-    console.log(params.type);
-  }, [params.type]);
+    console.log(params.type)
+  }, [params.type])
 
   return (
-    <div></div>
+    <div className="grid">
+      {cuisine.map((item) => {
+        return(
+          <div className="card-cuisine" key={item._id}>
+            <img src={item.imageUrl} alt="" />
+            <h4>{item.title}</h4>
+          </div>
+        )
+      })}
+    </div>
   )
 }
 

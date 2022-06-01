@@ -4,12 +4,10 @@
 
 .card {
   min-height: 25rem;
-  border-radius: 2rem;
   overflow: hidden;
 }
 
 img {
-  border-radius: 2rem;
   max-width: 300px;
   left: 0;
   width: 100%;

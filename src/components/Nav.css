@@ -4,3 +4,7 @@ nav {
     justify-content: space-around;
     background-color: darkgreen;
 }
+
+.header {
+    font-size: 2rem;
+}
