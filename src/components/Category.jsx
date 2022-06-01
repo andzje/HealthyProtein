@@ -5,16 +5,16 @@ import { NavLink } from 'react-router-dom'
 function Category() {
   return (
     <div className="list">
-        <NavLink to={'/cuisine/Kyckling'}>
+        <NavLink to={'/categories/kyckling'}>
             <h4>Kyckling</h4>
         </NavLink>
-        <NavLink to={'/cuisine/Kött'}>
+        <NavLink to={'/categories/kött'}>
             <h4>Kött</h4>
         </NavLink>
-        <NavLink to={'/cuisine/Fisk'}>
+        <NavLink to={'/categories/fisk'}>
             <h4>Fisk</h4>
         </NavLink>
-        <NavLink to={'/cuisine/Vegetariskt'}>
+        <NavLink to={'/categories/vegetariskt'}>
             <h4>Vegetariskt</h4>
         </NavLink>
     </div>
