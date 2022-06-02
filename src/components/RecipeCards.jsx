@@ -22,8 +22,8 @@ const renderCard = (recipe) => (
             {recipe.title}
           </a>
           <div>
-            <p>{recipe.timeInMins}</p>
-            <p>{recipe.ingredients.length}</p>
+            <p>Tid: {recipe.timeInMins} min</p>
+            <p>Ingredienser: {recipe.ingredients.length}</p>
           </div>
         </div>
       </div>
