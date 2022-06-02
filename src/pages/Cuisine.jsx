@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "./Cuisine.css";
+import RecipeCards from "../components/RecipeCards";
 
 function Cuisine() {
   const [cuisine, setCuisine] = useState([]);
@@ -20,16 +20,7 @@ function Cuisine() {
   }, [params.type]);
 
   return (
-    <div className="grid">
-      {cuisine.map((item) => {
-        return (
-          <div className="card-cuisine" key={item._id}>
-            <img src={item.imageUrl} alt="" />
-            <h4>{item.title}</h4>
-          </div>
-        );
-      })}
-    </div>
+    <RecipeCards recipes={cuisine} />
   );
 }
 
