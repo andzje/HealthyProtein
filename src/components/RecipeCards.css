@@ -5,14 +5,19 @@
 }
 .card {
     background-color: #F2FEE7;
-    
 }
 
 .card .content-image {
     position: relative;
-    height: 35ch;
-    width: 100%;
-    
+    aspect-ratio: 16/9;
+    isolation: isolate;
+    overflow: hidden;
+}
+.card .content-image::before {
+    content: '';
+    inset: 0;
+    position: absolute;
+    box-shadow: inset 0px -66px 37px -25px rgba(0, 0, 0, 0.7);
 }
 .card .content-image > div {
     position: absolute;
@@ -22,16 +27,17 @@
     bottom: 0;
     height: 3rem;
     width: 100%;
-    box-shadow: inset 0px -66px 37px -25px rgba(0, 0, 0, 0.7);
+    
 }
 .card .content-image .card-capsule-wrapper {
-display: flex;
+    gap: 0.4rem;
+    padding: 0.2rem;
 }
 .card .content-image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
+    mix-blend-mode: multiply;
 }
 
 .card .content-image .capsule-tag {
@@ -39,4 +45,39 @@ display: flex;
     color: #172D01;
     border: none;
     font-size: .8rem;
+    padding: 0.5rem;
+}
+.card .content-details {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    gap:1rem;
+}
+.card .content-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card .content-details .card-title {
+    color: #172D01;
+    font-size: 1.375rem;
+    font-weight: 600;
+    max-width: 12em;
+}
+.card .content-info > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.card .content-details .card-time {
+    font-size: 1.25rem;
+    color: #172D01;
+}
+
+.card .content-details .card-ingredients {
+    color: #3F6B14;
+    font-size: 0.875rem;
 }

@@ -1,7 +1,15 @@
 .list {
-    display: flex;
+    display: grid;
+    grid-auto-columns: minmax(0, max-content);
+    grid-auto-flow: column;
     justify-content: center;
     align-items: center;
+    
+}
+.list span {
+    font-weight: 500;
+}
+.main-category-list {
     background-color: #294909;
     min-height: 8rem;
     gap: 1rem;
@@ -15,7 +23,7 @@
     align-items: center;
     color: #ffffff;
     border: 2px solid #ffffff;
-    border-radius: 30px;
+    border-radius: 50vw;
     padding: 0.8rem;
 }
 

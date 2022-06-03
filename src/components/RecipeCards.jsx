@@ -3,34 +3,34 @@ import { Link } from "react-router-dom";
 import "./RecipeCards.css";
 
 const renderCard = (recipe) => (
-  <Link to={"/recipe/" + recipe._id}>
-    <div className="card" key={recipe._id}>
-      <div className="content-image">
-        <img src={recipe.imageUrl} alt={recipe.title} />
-        <div>
-          <div className="card-capsule-wrapper">
-            {recipe.categories.map((tag) => (
-              <span className="capsule-tag">{tag}</span>
-            ))}
-          </div>
-          <span>{recipe.avgRating}</span>
+  <div className="card" key={recipe._id}>
+    <div className="content-image">
+      <img src={recipe.imageUrl} alt={recipe.title} />
+      <div>
+        <div className="list card-capsule-wrapper">
+          {recipe.categories.map((tag) => (
+            <span className="capsule-tag">{tag}</span>
+          ))}
         </div>
+        <span>{recipe.avgRating}</span>
       </div>
-      <div className="content-details">
-        <div>
-          <a className="card-title" href="">
-            {recipe.title}
-          </a>
-          <div>
-            <p>Tid: {recipe.timeInMins} min</p>
-            <p>Ingredienser: {recipe.ingredients.length}</p>
-          </div>
-        </div>
-      </div>
-
-      <p>{recipe.description}</p>
     </div>
-  </Link>
+    <div className="content-details">
+      <div className="content-info">
+        <Link className="card-title" to={"/recipe/" + recipe._id}>
+          {recipe.title}
+        </Link>
+
+        <div>
+          <span className="card-ingredients">{recipe.ingredients.length} ingredienter</span>
+          <span className="card-time">{recipe.timeInMins} minuter</span>
+        </div>
+      </div>
+        <p>{recipe.description}</p>
+    </div>
+    
+    
+  </div>
 );
 
 const RecipeCards = (recipes) => (

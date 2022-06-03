@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 function Recipe() {
   let params = useParams();
   const [details, setDetails] = useState({});
-
+  console.log(details);
   const fetchDetails = async () => {
     const data = await fetch(
       `https://tomat-pqblx.ondigitalocean.app/recipes/${params.name}/`

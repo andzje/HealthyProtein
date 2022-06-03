@@ -4,18 +4,18 @@ import { NavLink } from 'react-router-dom'
 
 function Category() {
   return (
-    <div className="list">
+    <div className="list main-category-list">
         <NavLink className="capsule-tag" to={'/category/kyckling'}>
-            <h4>Kyckling</h4>
+            <span>Kyckling</span>
         </NavLink>
         <NavLink className="capsule-tag" to={'/category/kött'}>
-            <h4>Kött</h4>
+            <span>Kött</span>
         </NavLink>
         <NavLink className="capsule-tag" to={'/category/fisk'}>
-            <h4>Fisk</h4>
+            <span>Fisk</span>
         </NavLink>
         <NavLink className="capsule-tag" to={'/category/vegetariskt'}>
-            <h4>Vegetariskt</h4>
+            <span>Vegetariskt</span>
         </NavLink>
     </div>
   )
