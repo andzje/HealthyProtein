@@ -2,7 +2,7 @@ import React from 'react';
 import "./Category.css"
 import { NavLink } from 'react-router-dom'
 
-function Category() {
+const Category = () => {
   return (
     <div className="list main-category-list">
         <NavLink className="capsule-tag" to={'/category/kyckling'}>
