@@ -1,12 +1,42 @@
 .wrapper {
-    background-color: aliceblue;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(45ch, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(35ch, 400px));
     gap:2rem;
 }
 .card {
-
+    background-color: #F2FEE7;
+    
 }
-.card img {
-    border-radius: 0;
+
+.card .content-image {
+    position: relative;
+    height: 35ch;
+    width: 100%;
+    
+}
+.card .content-image > div {
+    position: absolute;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    box-shadow: inset 0px -66px 37px -25px rgba(0, 0, 0, 0.7);
+}
+.card .content-image .card-capsule-wrapper {
+display: flex;
+}
+.card .content-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.card .content-image .capsule-tag {
+    background-color: #C2F093;
+    color: #172D01;
+    border: none;
+    font-size: .8rem;
 }

@@ -4,19 +4,26 @@
     align-items: center;
     background-color: #294909;
     min-height: 8rem;
+    gap: 1rem;
 }
-.link {
+.capsule-tag {
+    width: min-content;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
-    height: 50%;
     color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 30px;
-    margin: 15px;
+    padding: 0.8rem;
 }
 
-.link a:visited{
+.capsule-tag a:visited{
     color: #ffffff;
+}
+
+.capsule-tag:hover{
+    color: #294909;
+    background-color: white;
 }

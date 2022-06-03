@@ -1,9 +1,14 @@
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header {
-    font-size: 2rem;
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header:visited {
+  color: #000000;
 }
