@@ -3,12 +3,12 @@ import { useParams } from "react-router-dom";
 import SinglePage from "../components/SinglePage";
 
 function Recipe() {
-  const {name} = useParams();
-  const [details, setDetails] = useState();
-  console.log("details",details);
+  let params = useParams();
+  const [details, setDetails] = useState({});
+
   const fetchDetails = async () => {
     const data = await fetch(
-      `https://tomat-pqblx.ondigitalocean.app/recipes/${name}/`
+      `https://tomat-pqblx.ondigitalocean.app/recipes/${params.id}/`
     );
     const detailData = await data.json();
     setDetails(detailData);
@@ -16,7 +16,7 @@ function Recipe() {
 
   useEffect(() => {
     fetchDetails();
-  }, [name]);
+  }, [params.name]);
 
   return <SinglePage recipe={details} />;
 }
