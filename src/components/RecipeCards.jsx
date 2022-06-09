@@ -22,7 +22,7 @@ const renderCard = (recipe) => (
         </Link>
 
         <div>
-          <span className="card-ingredients">{recipe.ingredients.length} ingredienter</span>
+          <span className="card-ingredients">{recipe.ingredients.length} ingredienser</span>
           <span className="card-time">{recipe.timeInMins} minuter</span>
         </div>
       </div>
