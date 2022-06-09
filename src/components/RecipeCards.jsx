@@ -33,9 +33,9 @@ const renderCard = (recipe) => (
   </div>
 );
 
-const RecipeCards = (recipes) => (
+const RecipeCards = ({recipes}) => (
   <div className="wrapper">
-    {recipes.recipes.map((recipe) => renderCard(recipe))}
+    {recipes.map((recipe) => renderCard(recipe))}
   </div>
 );
 
