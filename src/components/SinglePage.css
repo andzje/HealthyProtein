@@ -1,3 +1,18 @@
+<<<<<<< HEAD
 .singlePage-container{
     background-color: rgb(221, 196, 220);
 }
+=======
+.comments {
+	background-color: #f2fee7;
+	padding: 10px;
+}
+.post p {
+	display: flex;
+	justify-content: center;
+}
+.post input {
+	display: flex;
+	justify-content: center;
+}
+>>>>>>> 3b7b2cf7ec44248ecdfd5fe473d616e5d424b6e6

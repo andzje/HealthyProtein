@@ -1,6 +1,23 @@
-import React from 'react';
-import "./SinglePage.css"
+import React from "react";
+import PostComment from "./PostComment";
+import CommentList from "./CommentList";
+import "./SinglePage.css";
 
+<<<<<<< HEAD
+const SinglePage = ({ recipe }) => {
+	console.log(recipe.recipe);
+	return (
+		<div>
+			<h1>{recipe.title}</h1>
+			{recipe.description}
+			<div className="comments">
+				<PostComment />
+				<CommentList />
+			</div>
+		</div>
+	);
+};
+=======
 const SinglePage = ({recipe}) => {
     return (
         <div className='singlePage-container'>
@@ -33,5 +50,6 @@ const SinglePage = ({recipe}) => {
         </div>
     );
 }
+>>>>>>> 8e6633a191d9513a43405ae4492ca77722d8da2e
 
 export default SinglePage;
