@@ -3,13 +3,14 @@ import { useParams } from "react-router-dom";
 import SinglePage from "../components/SinglePage";
 
 function Recipe() {
-  const {id} = useParams();
+  const {recipeId} = useParams();
   const [details, setDetails] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const fetchDetails = async () => {
     const data = await fetch(
-      `https://tomat-pqblx.ondigitalocean.app/recipes/${id}/`
+      `https://tomat-pqblx.ondigitalocean.app/recipes/${recipeId}/`
     );
+    console.log(`https://tomat-pqblx.ondigitalocean.app/recipes/${recipeId}/`);
     const detailData = await data.json();
     setDetails(detailData);
     setIsLoading(false);
@@ -18,7 +19,10 @@ function Recipe() {
   useEffect(() => {
     setIsLoading(true);
     fetchDetails();
-  }, [id]);
+  }, [recipeId]);
+  // details.ingredients.map(e=>console.log(e));
+
+  // console.log('details',details.ingredients);
 
   return isLoading ? <p>Laddar...</p> : <SinglePage recipe={details} />;
 }

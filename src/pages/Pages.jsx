@@ -11,7 +11,7 @@ function Pages() {
       <Route path="/" element={<Home />} />
       <Route path="/category/:type" element={<Cuisine />} />
       <Route path="/searched/:search" element={<Searched />} />
-      <Route path="/recipe/:id" element={<Recipe />}/>
+      <Route path="/recipe/:recipeId" element={<Recipe />}/>
     </Routes>
   );
 }
