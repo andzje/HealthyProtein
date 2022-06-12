@@ -4,8 +4,8 @@ import { useParams } from "react-router-dom";
 import "./PostComments.css";
 
 function PostComment() {
-	const { id } = useParams();
-	const url = `https://tomat-pqblx.ondigitalocean.app/recipes/${id}/comments`;
+	const { recipeId } = useParams();
+	const url = `https://tomat-pqblx.ondigitalocean.app/recipes/${recipeId}/comments`;
 	const [data, setData] = useState({
 		comment: "",
 		name: "",

@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom';
 import Axios from "axios";
 import "./CommentList.css";
 
 function CommentList() {
 	const [comment, SetComment] = useState([]);
-	const { id } = useParams();
+	const { recipeId } = useParams();
 
 	useEffect(() => {
-		Axios.get(`https://tomat-pqblx.ondigitalocean.app/recipes/${id}/comments`)
+		Axios.get(`https://tomat-pqblx.ondigitalocean.app/recipes/${recipeId}/comments`)
 			.then((res) => {
 				SetComment(res.data);
 			})

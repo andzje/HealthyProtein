@@ -1,8 +1,43 @@
-<<<<<<< HEAD
-.singlePage-container{
-    background-color: rgb(221, 196, 220);
+.singlePage-container {
+	width: 100%;
+	max-width: 150ch;
+	margin: auto;
+	padding: 2rem;
+	background-color: #f2fee7;
 }
-=======
+
+.singlePage-containerTop{
+	display: flex;
+	justify-content: space-between;
+}
+.recipe-intro {
+	width: 100%;
+	margin-right: 1rem;
+}
+.recipe-heading {
+	display:grid;
+	gap:1rem;
+	grid-template-columns: repeat(2,1fr);
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+.recipe-heading h1 {
+	color: #172D01;
+}
+.recipe-heading span {
+	margin-left: auto;
+}
+.recipe-intro p {
+	max-width: 24ch;
+}
+
+.recipe-image img{
+	min-width: 100%;
+	max-width: 900px;
+	
+}
+
 .comments {
 	background-color: #f2fee7;
 	padding: 10px;
@@ -15,4 +50,3 @@
 	display: flex;
 	justify-content: center;
 }
->>>>>>> 3b7b2cf7ec44248ecdfd5fe473d616e5d424b6e6
