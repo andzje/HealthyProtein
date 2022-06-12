@@ -1,0 +1,12 @@
+.comments {
+	background-color: #f2fee7;
+	padding: 10px;
+}
+.post p {
+	display: flex;
+	justify-content: center;
+}
+.post input {
+	display: flex;
+	justify-content: center;
+}
