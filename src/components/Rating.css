@@ -1,0 +1,34 @@
+.rating-container {
+    background-color: #172D01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.rating-container h1 {
+    color: #F2FEE7;
+    margin: 3rem 0;
+}
+.rating-wrapper {
+    display: flex;
+    justify-content: center;
+    gap:0.2rem;
+    width: 40%;
+    margin-bottom: 3rem;
+}
+
+.strokeStarRatingAttributes {
+    fill: none;
+    stroke: #C2F093;
+}
+.fillStarRatingAttributes {
+    fill: #C2F093;
+}
+.fillStarRatingAttributes:hover {
+    width: 100%;
+}
+.star-wrapper svg {
+    width: 100%;
+}
+
+    

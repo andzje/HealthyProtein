@@ -8,7 +8,7 @@ function Searched() {
 
 	const getSearched = async (name) => {
 		const data = await fetch(
-			`https://tomat-pqblx.ondigitalocean.app/categories/${name}/recipes`
+			`https://tomat-pqblx.ondigitalocean.app/recipes?query=${name}`
 		);
 		const recipes = await data.json();
 		setSearchedRecipes(recipes);
