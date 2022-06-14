@@ -9,6 +9,10 @@
     color: #F2FEE7;
     margin: 3rem 0;
 }
+.rating-container h3 {
+    margin: 4rem 0;
+    color:#F2FEE7;
+}
 .rating-wrapper {
     display: flex;
     justify-content: center;
@@ -24,8 +28,12 @@
 .fillStarRatingAttributes {
     fill: #C2F093;
 }
-.fillStarRatingAttributes:hover {
-    width: 100%;
+.star-wrapper {
+    all:unset;
+    cursor: pointer;
+}
+.star-wrapper:hover .fillStarRatingAttributes{
+    width:100%;
 }
 .star-wrapper svg {
     width: 100%;

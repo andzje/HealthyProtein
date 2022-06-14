@@ -10,6 +10,33 @@ function PostComment() {
 		comment: "",
 		name: "",
 	});
+	const [nameErr, setNameErr] = useState(true);
+	const [commentErr, setCommentErr] = useState(true);
+
+	function nameHandler(e) {
+		const newData = { ...data };
+		newData[e.target.id] = e.target.value;
+		setData(newData);
+
+		let item = e.target.value;
+		if (item.length < 1) {
+			setNameErr(true);
+		} else {
+			setNameErr(false);
+		}
+	}
+	function commentHandler(e) {
+		const newData = { ...data };
+		newData[e.target.id] = e.target.value;
+		setData(newData);
+
+		let item = e.target.value;
+		if (item.length < 1) {
+			setCommentErr(true);
+		} else {
+			setCommentErr(false);
+		}
+	}
 
 	function submit(e) {
 		e.preventDefault();
@@ -20,13 +47,6 @@ function PostComment() {
 			console.log(res.data);
 		});
 	}
-
-	function handle(e) {
-		const newData = { ...data };
-		newData[e.target.id] = e.target.value;
-		setData(newData);
-		console.log(newData);
-	}
 	return (
 		<div className="post">
 			<p>LÅT ANDRA VETA VAD DU TYCKTE OM RECEPTET</p>
@@ -34,20 +54,25 @@ function PostComment() {
 			<form onSubmit={(e) => submit(e)}>
 				Namn:{" "}
 				<input
-					onChange={(e) => handle(e)}
+					onChange={(e) => nameHandler(e)}
 					id="name"
 					value={data.name}
 					type="text"
-
 				/>
+				{nameErr ? <span>Fyll i ditt namn</span> : null}
+				<br />
 				Kommentar:{" "}
-				<textarea
-					onChange={(e) => handle(e)}
+				<input
+					onChange={(e) => commentHandler(e)}
 					id="comment"
 					value={data.comment}
 					type="text"
 				/>
-				<button className="button" type="submit">Skicka</button>
+				{commentErr ? <span>Fyll i din kommentar</span> : null}
+				<br />
+				<button className="button" type="submit">
+					Skicka
+				</button>
 			</form>
 		</div>
 	);

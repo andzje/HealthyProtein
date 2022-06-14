@@ -1,9 +1,11 @@
 import React from "react";
 import PostComment from "./PostComment";
 import CommentList from "./CommentList";
+import Rating from "./Rating";
 import "./SinglePage.css";
 
 const SinglePage = ({ recipe }) => {
+  console.log('avgrating', recipe.avgRating);
   return (
     <div className="singlePage-container">
       <div className="singlePage-containerTop">
@@ -25,7 +27,7 @@ const SinglePage = ({ recipe }) => {
             <ul>
               {recipe.ingredients &&
                 recipe.ingredients.map((ingredient) => (
-                  <li key={ingredient._id}>{ingredient.name}</li>
+                  <li key={ingredient._id}><p>{ingredient.name}</p></li>
                 ))}
             </ul>
           </div>
@@ -34,7 +36,7 @@ const SinglePage = ({ recipe }) => {
             <ul>
               {recipe.instructions &&
                 recipe.instructions.map((instruction) => (
-                  <li key={instruction._id}>{instruction}</li>
+                  <li key={instruction._id}><p>{instruction}</p></li>
                 ))}
             </ul>
           </div>
@@ -43,6 +45,7 @@ const SinglePage = ({ recipe }) => {
 
         <PostComment />
         <CommentList />
+        <Rating rating={recipe.avgRating} />
       </div>
   );
 };

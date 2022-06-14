@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import SinglePage from "../components/SinglePage";
-import Rating from "../components/Rating";
 
 function Recipe() {
   const { recipeId } = useParams();
@@ -25,8 +24,7 @@ function Recipe() {
   return (
     <>
       {isLoading ? <p>Laddar...</p> : <SinglePage recipe={details} />}
-      {<Rating rating={details.rating} />}
-    </>
+          </>
   );
 }
 

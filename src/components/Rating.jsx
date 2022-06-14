@@ -1,8 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import { useParams } from "react-router-dom";
 import "./Rating.css";
 
-const getStarValue = (position, id) => {
+const getStarValue = (position, id, setRatingMessage) => {
   const data = {rating: position}
   console.log('data',data);
   fetch(`https://tomat-pqblx.ondigitalocean.app/recipes/${id}/ratings`, {
@@ -19,12 +19,13 @@ const getStarValue = (position, id) => {
 .catch((error) => {
   console.error('Error:', error);
 });
+setRatingMessage(true);
 }
 
-const renderStar = (width, position, id) => (
+const renderStar = (width, position, id, setRatingMessage) => (
   
   <>
-    <span onClick={() => getStarValue(position, id)} className={`star-wrapper`}>
+    <button onClick={() => getStarValue(position, id, setRatingMessage)} className={`star-wrapper`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="100%"
@@ -44,24 +45,27 @@ const renderStar = (width, position, id) => (
           <path d="M12.1063 0.018692L16.0757 6.28092L23.2761 8.10951L18.5289 13.8084L19.0096 21.2007L12.1063 18.4606L5.2029 21.2007L5.68359 13.8084L0.936398 8.10951L8.13683 6.28092L12.1063 0.018692Z" />
         </svg>
       </svg>
-    </span>
+    </button>
   </>
 );
 
 const Rating = ({ rating }) => {
+  const [ratingMessage, setRatingMessage] = useState(false);
   const { recipeId } = useParams();
   let tempRatingsArr = [];
-  rating = rating ? !rating : 2.4;
+//   rating = rating ? !rating : 0;
   for (let i = 1; i <= 5; i++) {
+    console.log(rating);
     if (rating - i < 1)
-      tempRatingsArr.push(renderStar((rating - i) * 100 + "%", i, recipeId));
+      tempRatingsArr.push(renderStar((rating - i) * 100 + "%", i, recipeId, setRatingMessage));
     else 
-      tempRatingsArr.push(renderStar("100%", i, recipeId));
+      tempRatingsArr.push(renderStar("100%", i, recipeId, setRatingMessage));
   }
   return (
     <div className="rating-container">
-      <h1>Rating för receptet</h1>
-      <div className="rating-wrapper">{tempRatingsArr}</div>
+        {ratingMessage === false ?
+      <><h1>Rating för receptet</h1><div className="rating-wrapper">{tempRatingsArr}</div></>
+        : <h3>Tack för betyget!</h3>}
     </div>
   );
 };

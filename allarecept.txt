@@ -1,0 +1,950 @@
+[
+	{
+		"title": "Flygande Jacob",
+		"description": "Färdiggrillad kyckling, jordnötter, knaperstekt bacon, chilisås, grädde och bananer i en oslagbar kombination. Flygande Jacob är en riktig klassiker!",
+		"imageUrl": "https://img.koket.se/standard-mega/flygande-jakob.jpg.webp",
+		"timeInMins": 30,
+		"categories": [
+			"Huvudrätt",
+			"Kyckling"
+		],
+		"instructions": [
+			"Sätt ugnen på 225 grader",
+			"Ta bort skinn och ben från din grillade kyckling",
+			"Skär kycklingköttet i mindre bitar",
+			"Skala och dela bananerna på längden",
+			"Lägg kycklingköttet i en ugnssäker form",
+			"Lägg banan ovanpå",
+			"Vispa grädden",
+			"Rör ihop grädde och chilisås och bred det över",
+			"Grädda i nedre delen av ugnen i 20 minuter",
+			"Strimla under tiden bacon och stek det knaprigt i en stekpanna",
+			"Lägg upp på hushållspapper för att rinna av",
+			"Tag ut kycklingen och strö över bacon och jordnötter",
+			"Matsortera dina bananskal och renset från kycklingen till återvinning och njut av din Flygande Jacob!"
+		],
+		"ingredients": [
+			{
+				"name": "mellangrädde",
+				"amount": 3,
+				"unit": "dl",
+			},
+			{
+				"name": "chilisås",
+				"amount": 1,
+				"unit": "dl",
+			},
+			{
+				"name": "jordnötter",
+				"amount": 1,
+				"unit": "dl",
+			},
+			{
+				"name": "grillad kyckling",
+				"amount": 1,
+				"unit": "",
+			},
+			{
+				"name": "bacon",
+				"amount": 140,
+				"unit": "g",
+			},
+			{
+				"name": "bananer",
+				"amount": 1,
+				"unit": "",
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Dubbelmarinerad oxfilé",
+		"description": "Denna dubbelmarinerade oxfilé blir en garanterad succé på din fest när du serverar den kall tillsammans med marinaden. Oxfilén får bland annat smaker av hoisinsås och soja men sedan även vitvinsvinäger, vitlök och persilja.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_14184/cf_259/dubbelmarinerad_oxfil%C3%A9.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Kött",
+			"Nöt"
+		],
+		"instructions": [
+			"Två dagar före festen: Blanda ingredienserna till marinad 1. Lägg filén i dubbla plastpåsar. Häll över marinaden. Knyt påsarna. Låt stå i kylen över natten.",
+			"Dagen före festen: Sätt ugnen på 150°C.",
+			"Ta ut oxfilén och torka av den. Bryn filén hastigt runt om i en het stekpanna.",
+			"Lägg över på en ugnsplåt. Stick in en stektermometer i mitten av köttet. Ugnsstek tills innertemperaturen är 55°C, ca 30 minuter. Linda in filén i aluminiumfolie. Ställ in i kylen.",
+			"Blanda samman marinad 2.",
+			"Skär filén i cm-tunna skivor. Lägg dem i en skål. Häll över marinaden, täck med plastfolie och låt stå kallt till strax före servering.",
+			"Festdagen: Ta fram köttet innan gästerna kommit. Lägg över oxfiléskivorna på ett vackert fat. Skeda över marinaden."
+		],
+		"ingredients": [
+			{
+				"name": "oxfilé",
+				"amount": 800,
+				"unit": "g"
+			},
+			{
+				"name": "smör till stekning",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "olja till stekning",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "sojasås",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "hoisinsås",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "salt",
+				"amount": 0.5,
+				"unit": "tsk"
+			},
+			{
+				"name": "olja",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "socker",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "vitvinsvinäger",
+				"amount": 0.5,
+				"unit": "dl"
+			},
+			{
+				"name": "vatten",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "olivolja",
+				"amount": 1,
+				"unit": "dl"
+			},
+			{
+				"name": "salt",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "socker",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "grovmalen svartpeppar",
+				"amount": 0.5,
+				"unit": "tsk"
+			},
+			{
+				"name": "finhackad vitlöksklyfta",
+				"amount": 1,
+				"unit": ""
+			},
+			{
+				"name": "finhackad persilja",
+				"amount": 1,
+				"unit": "kruka"
+			},
+			{
+				"name": "hackad kapris",
+				"amount": 0.5,
+				"unit": "dl"
+			}
+		],
+		"ratings": 2.4444444444444446
+	},
+	{
+		"title": "Helstekt pepparfilé",
+		"description": "Finaste nyårsmaten eller en mycket uppskattad festmiddag, denna helstekta pepparfilé är en riktig vinnare! Oxfilén tar lite tid i anspråk men med sitt saftiga resultat är filén klart värd sin ansträngning.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_14185/cf_259/helstekt_pepparfil%C3%A9.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Kött",
+			"Nöt"
+		],
+		"instructions": [
+			"Dagen före festen: Sätt ugnen på 150°C.",
+			"Salta oxfilén. Bryn den runtom i smör och olja i en het stekpanna.",
+			"Lägg över på en ugnsplåt. Stick in en stektermometer i mitten av köttet. Ugnsstek tills innertemperaturen är 55°C, ca 35 minuter. Linda in filén i aluminiumfolie. Ställ in i kylen.",
+			"Festdagen: Sätt ugnen på 150°C.",
+			"Rör ihop honung, pepparsorterna och salt. Skeda över filén tills det täcker ovansidan och sidorna. Ställ in i ugnen. Värm i ca 30 minuter (med stektermometern, innertemperaturen ska inte överstiga 55°C). Skär upp vid servering."
+		],
+		"ingredients": [
+			{
+				"name": "oxfilé",
+				"amount": 800,
+				"unit": "g"
+			},
+			{
+				"name": "salt",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "smör",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "olja till stekning",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "honung",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "grovstött rosépeppar",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "grovstött svartpeppar",
+				"amount": 0.5,
+				"unit": "msk"
+			},
+			{
+				"name": "grovstött grönpeppar",
+				"amount": 0.5,
+				"unit": "msk"
+			},
+			{
+				"name": "flingsalt",
+				"amount": 0.5,
+				"unit": "msk"
+			}
+		],
+		"ratings": 3
+	},
+	{
+		"title": "Plankstek",
+		"description": "Plankstek är en riktigt restaurangklassiker som har sitt ursprung i Ungern. Gör ett gott mos, som gratineras i ugnen tillsammans med tomaterna. Stek köttet och gör egen bearnaisesås eller köp färdig. Sätt ihop allt snyggt på plankan och planksteken är klar att servera.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_238851/cf_259/plankstek.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Kött",
+			"Nöt"
+		],
+		"instructions": [
+			"Potatismos: Skala och koka potatisen i saltat vatten.",
+			"Sätt ugnen på 250°C.",
+			"Passera potatisen genom en potatispress. Tillsätt äggulor, smör, salt och vitpeppar. Blanda väl. Spritsa ut moset runt om kanterna på plankorna.",
+			"Dela tomaterna, krydda snittytan med salt och peppar. Ringla olivoljan över tomaterna. Lägg 2 tomathalvor på varje planka.  Gratinera plankorna 10-15 minuter i övre delen av ugnen, tills moset fått färg.",
+			"Stek köttet i resterande smör ca 2 minuter på varje sida. Krydda med salt och svartpeppar.",
+			"Koka bönorna i saltat vatten ca 4 minuter.",
+			"Lägg en köttbit på varje planka, fördela bönorna och bearnaisesås på plankorna. Toppa gärna med finhackad persilja."
+		],
+		"ingredients": [
+			{
+				"name": "mjölig potatis",
+				"amount": 1,
+				"unit": "kg",
+			},
+			{
+				"name": "äggulor",
+				"amount": 2,
+				"unit": "st",
+			},
+			{
+				"name": "smör",
+				"amount": 75,
+				"unit": "g",
+			},
+			{
+				"name": "salt",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "vitpeppar",
+				"amount": 1,
+				"unit": "krm"
+			},
+			{
+				"name": "planksteksplankor",
+				"amount": 4,
+				"unit": "st"
+			},
+			{
+				"name": "tomater (gärna plommontomater)",
+				"amount": 4,
+				"unit": "st"
+			},
+			{
+				"name": "salt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "svartpeppar",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "olivolja",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "ryggbiff eller oxfilé (à 150 g)",
+				"amount": 4,
+				"unit": "skivor"
+			},
+			{
+				"name": "smör",
+				"amount": 25,
+				"unit": "g"
+			},
+			{
+				"name": "haricots verts",
+				"amount": 150,
+				"unit": "g"
+			},
+			{
+				"name": "bearnaisesås",
+				"amount": 3,
+				"unit": "dl"
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Stekt lax med blomkål och dillkräm",
+		"description": "När tiden är knapp men du ändå vill äta god och näringsrik mat är stekt lax en riktigt bra lösning. Färsk laxfilé går extra fort att steka, men fryst går lika bra om den är ordentligt tinad. Servera med kokt potatis, blomkål och en enkel dillkräm gjord på crème fraiche.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_237400/cf_259/stekt_lax_med_blomkal_och_dillkram.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Fisk"
+		],
+		"instructions": [
+			"Tina laxen (om fryst används).",
+			"Koka potatisen.",
+			"Ansa och skär blomkålen i små buketter. Koka den mjuk i en kastrull med saltat vatten.",
+			"Hacka dillen (spara några vippor till servering) och blanda med crème fraichen Smaka av dillkrämen med salt och peppar.",
+			"Stek laxen i oljan i en stekpanna, ca 3 minuter på varje sida eller tills innertemperaturen på fisken är 54°C. Krydda med salt och peppar.",
+			"Servera laxen med potatis, blomkål och dillkräm. Toppa med några dillvippor."
+		],
+		"ingredients": [
+			{
+				"name": "potatis",
+				"amount": 900,
+				"unit": "g"
+			},
+			{
+				"name": "blomkålshuvud (à ca 700 g)",
+				"amount": 0.5,
+				"unit": "st"
+			},
+			{
+				"name": "färsk dill (à 20 g)",
+				"amount": 1,
+				"unit": "ask"
+			},
+			{
+				"name": "crème fraiche",
+				"amount": 2,
+				"unit": "dl"
+			},
+			{
+				"name": "salt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "peppar",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "laxfilé",
+				"amount": 4,
+				"unit": "port"
+			},
+			{
+				"name": "olja",
+				"amount": 2,
+				"unit": "tsk"
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Fiskgratäng med dill",
+		"description": "En delikat och busenkel fiskgratäng som gräddas i ugnen till perfektion. Fiskfiléerna gräddas i ugnen i en krämig dillsås och toppas med riven prästost som får smälta. Servera den ångande varma gratängen med nykokt potatis och krispig gurka. Så gott i all sin enkelhet!",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_238600/cf_259/fiskgratang_med_dill.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Fisk",
+			"Gratäng"
+		],
+		"instructions": [
+			"Tina fisken (om fryst används).",
+			"Sätt ugnen på 225°C.",
+			"Koka potatisen.",
+			"Fiskgratäng: Vispa ihop grädde, mjölk och majsstärkelse i en kastrull. Lägg i smulad buljongtärning och koka upp under omrörning. Smaka av med citronsaft, salt och peppar.",
+			"Hacka och rör ner hälften av dillen i såsen (resten används vid serveringen).",
+			"Lägg fisken i en ugnform. Häll på såsen och strö över osten. Tillaga högt upp i ugnen ca 10 minuter eller tills fisken har en innertemperatur på 56°C.",
+			"Skär tomaterna i halvor.",
+			"Servera fiskgratängen toppad med dillen, med potatis och tomater."
+		],
+		"ingredients": [
+			{
+				"name": "potatis",
+				"amount": 900,
+				"unit": "g"
+			},
+			{
+				"name": "vispgrädde",
+				"amount": 1.5,
+				"unit": "dl"
+			},
+			{
+				"name": "mjölk",
+				"amount": 2,
+				"unit": "dl"
+			},
+			{
+				"name": "majsstärkelse",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "fiskbuljongtärning",
+				"amount": 0.5,
+				"unit": "st"
+			},
+			{
+				"name": "citron (saften)",
+				"amount": 0.5,
+				"unit": "st"
+			},
+			{
+				"name": "salt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "peppar",
+				"amount": null
+			},
+			{
+				"name": "färsk dill (à 20 g)",
+				"amount": 1,
+				"unit": "förp"
+			},
+			{
+				"name": "alaska pollock",
+				"amount": 600,
+				"unit": "g"
+			},
+			{
+				"name": "riven prästost",
+				"amount": 1.5,
+				"unit": "dl"
+			},
+			{
+				"name": "körsbärstomater",
+				"amount": 250,
+				"unit": "g"
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Grillad sjötunga kokt i champagne",
+		"description": "Det här receptet är en fröjd både för ögat och smaklökarna. Du grillar först den lyxiga sjötungan och låter den därefter kokas i förstaklassig champagne tillsammans med bland annat oliver, tomater och kronärtskocksbottnar.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_17372/cf_259/grillad_sjotunga_kokt_i_champagne.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Fisk"
+		],
+		"instructions": [
+			"Sätt ugnen på 175°C.",
+			"Skär bort skinnet från fisken. Torka den med handduk. Gnid in fisken med olja, krydda med salt och nymald peppar. Grilla den i het grillpanna. Lägg över fiskarna i en långpanna.",
+			"Skala löken. Skär alla grönsaker i tärningar ca 1/2 cm, blanda dessa och strö över fiskarna.",
+			"Häll på champagnen och lägg på smöret. Sätt in mitt i ugnen.",
+			"Tiden avgörs av tjockleken på fisken, 10-12 minuter. Kolla med en kniv när filéerna släpper ifrån benen.",
+			"Häll fiskfonden i en kastrull och låt den koka ihop en stund.",
+			"Mixa fonden med den färska dragonen och smaka av med salt och peppar. Häll över fisken och filea vid bordet.",
+			"Servera med nykokt, pressad potatis eller bröd."
+		],
+		"ingredients": [
+			{
+				"name": "sjötungsfiléer (à 800 g)",
+				"amount": 2,
+				"unit": "st"
+			},
+			{
+				"name": "matolja",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "havssalt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "nymalen vitpeppar",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "rödlök",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "svarta, kärnfria oliver",
+				"amount": 2,
+				"unit": "dl"
+			},
+			{
+				"name": "färska skalade tomater",
+				"amount": 2,
+				"unit": "st"
+			},
+			{
+				"name": "kronärtskocksbottnar",
+				"amount": 4,
+				"unit": "st"
+			},
+			{
+				"name": "skurna dragonblad",
+				"amount": 1,
+				"unit": "dl"
+			},
+			{
+				"name": "champagne (gärna en blanc de blanc), mousserade- eller vitt vin",
+				"amount": 5,
+				"unit": "dl"
+			},
+			{
+				"name": "normalsaltat smör",
+				"amount": 175,
+				"unit": "g"
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Kikärtsgryta med ris",
+		"description": "Det är ingen konst att laga denna läckra vegetariska kikärtsgryta. Gräddig och matig med god smak av curry och kokosmjölk. En gryta som lätt blir blir en ny favorit för både små och stora gäster.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_237401/cf_259/kikartsgryta_med_ris.jpg",
+		"timeInMins": 60,
+		"categories": [
+			"Huvudrätt",
+			"Vegetariskt"
+		],
+		"instructions": [
+			"Koka riset enligt anvisningen på förpackningen.",
+			"Häll kikärtorna i ett durkslag, spola dem i kallt vatten och låt rinna av.",
+			"Skala och skär löken i grova bitar. Skiva morötterna.",
+			"Fräs lök och morötter i oljan i en gryta eller kastrull tillsammans med curry, spiskummin och pressad vitlök.",
+			"Rör ner kikärtor, kokosmjölk, vatten och smulad buljongtärning och låt koka upp. Blanda majsstärkelsen med lite kallt vatten och rör ner i grytan. Koka upp och sjud i 5 minuter.",
+			"Skär tomaterna i bitar. Rör ner dem i grytan eller servera dem vid sidan av. Smaka av grytan med salt och peppar.",
+			"Servera grytan med ris och tomater."
+		],
+		"ingredients": [
+			{
+				"name": "ris (eller annat gryn)",
+				"amount": 4,
+				"unit": "port"
+			},
+			{
+				"name": "kikärtor (à 380 g)",
+				"amount": 1,
+				"unit": "förp"
+			},
+			{
+				"name": "gul lök",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "snackmorötter",
+				"amount": 200,
+				"unit": "g"
+			},
+			{
+				"name": "olja",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "curry",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "spiskummin",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "vitlöksklyftor",
+				"amount": 2,
+				"unit": "st"
+			},
+			{
+				"name": "kokosmjölk",
+				"amount": 400,
+                "unit":"dl"
+			},
+			{
+				"name": "vatten",
+				"amount": 1,
+				"unit": "dl"
+			},
+			{
+				"name": "grönsaksbuljongtärning",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "majsstärkelse",
+				"amount": 0.5,
+				"unit": "msk"
+			},
+			{
+				"name": "plommontomater (à 500 g)",
+				"amount": 0.5,
+				"unit": "förp"
+			},
+			{
+				"name": "salt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "peppar",
+				"amount": null,
+				"unit": ""
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Linsbowl med avokado och picklad rödlök",
+		"description": "En skål med godsaker kommer lastat! Och detta är inte svårt. Du börjar med att pickla rödlöken. Sen marinerar du tunt skivad kålrabbi i citron, olivolja, salt och peppar. I nästa steg kokar du orzo och hackar alla grönsaker. Lägg upp allt i skålar och servera!",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_227319/cf_259/linsbowl_med_avokado_och_picklad_rodlok.jpg",
+		"timeInMins": 45,
+		"categories": [
+			"Huvudrätt",
+			"Vegetariskt"
+		],
+		"instructions": [
+			"Tina sojabönorna.",
+			"Picklad lök: Skala och skiva löken. Koka upp vatten ättika och socker. Lägg i löken och låt den få ett uppkok och ta av kastrullen från plattan. Låt stå och dra medan övrigt tillagas.",
+			"Skala och skiva kålrabbin. Pressa saften från citronen och blanda den med olivoljan och kålrabbin. Krydda med salt och peppar.",
+			"Koka orzo-mixen enligt anvisningen på förpackningen.",
+			"Skär gurkan i skivor och ansa och skiva salladslöken tunt.",
+			"Dela, kärna och gröp ur avokadorna. Skär i tärningar.",
+			"Hacka koriandern.",
+			"Blanda orzo-mixen med sojabönorna.",
+			"Servera orzo-mixen i skålar och toppa med alla tillbehör."
+		],
+		"ingredients": [
+			{
+				"name": "rödlök",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "vatten",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "ättiksprit 12 %",
+				"amount": 0.5,
+				"unit": "msk"
+			},
+			{
+				"name": "strösocker",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "kålrabbi (ca 300 g)",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "citron",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "olivolja",
+				"amount": 1,
+				"unit": "msk"
+			},
+			{
+				"name": "salt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "peppar",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "orzo-mix grynblandning (gärna fullkorn)",
+				"amount": 300,
+				"unit": "g"
+			},
+			{
+				"name": "snackgurka (à 250 g)",
+				"amount": 1,
+				"unit": "förp"
+			},
+			{
+				"name": "salladslök (à 125 g)",
+				"amount": 0.5,
+				"unit": "förp"
+			},
+			{
+				"name": "avokado",
+				"amount": 2,
+				"unit": "st"
+			},
+			{
+				"name": "koriander",
+				"amount": 1,
+				"unit": "kruka"
+			},
+			{
+				"name": "sojabönor",
+				"amount": 250,
+				"unit": "g"			},
+			{
+				"name": "ajvar relish (stark)",
+				"amount": 2,
+				"unit": "dl"
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Wok med nudlar, tofu och rostade sojabönor",
+		"description": "Snabblagad och enkel att göra blir woken är du använder färdigskurna grönsaker. Blanda woken, med de lite tjockare, udonnudlarna och stekt tofu som får sin smak av soja och wasabi.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_239437/cf_259/wok_med_nudlar__tofu_och_rostade_sojabonor.jpg",
+		"timeInMins": 30,
+		"categories": [
+			"Huvudrätt",
+			"Vegetariskt"
+		],
+		"instructions": [
+			"Koka nudlarna enligt anvisningen på förpackningen. Häll av nudlarna och skölj dem kalla.",
+			"Skär tofun i tärningar.",
+			"Vispa ihop soja, vatten och wasabipasta.",
+			"Stek tofun i omgångar i oljan i en stekpanna, tills de får fin färg. Häll på soja-wasabiblandingen och vänd ner wokmixen. Koka sakta under lock i 2-3 minuter. Vänd ner nudlarna och värm ordentligt.",
+			"Till servering: Servera woken, toppad med rostade sojabönor och gärna lite sweetchilisås och extra soja."
+		],
+		"ingredients": [
+			{
+				"name": "färska nudlar (gärna udonnudlar, à 250 g)",
+				"amount": 2,
+				"unit": "förp"
+			},
+			{
+				"name": "tofu (à 230 g)",
+				"amount": 2,
+				"unit": "förp"
+			},
+			{
+				"name": "japansk soja",
+				"amount": 1,
+				"unit": "dl"
+			},
+			{
+				"name": "vatten",
+				"amount": 1,
+				"unit": "dl"
+			},
+			{
+				"name": "wasabipasta",
+				"amount": 4,
+				"unit": "tsk"
+			},
+			{
+				"name": "olja",
+				"amount": 4,
+				"unit": "msk"
+			},
+			{
+				"name": "färsk wokmix fusion (à 300 g)",
+				"amount": 1,
+				"unit": "förp"
+			}
+		],
+		"ratings": [0]
+	},
+	{
+		"title": "Kyckling i kokosmjölk med mango chutney",
+		"description": "Kyckling och paprika får stekas i olja så att de verkligen suger åt sig av varandras smaker. Addera kokosmjölk och mango chutney och låt sjuda innan det serveras tillsammans med ris, sallad och gräslök. Redo att ätas på bara 20 minuter.",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_237831/cf_259/kyckling_i_kokosmjolk_med_mango_chutney_.jpg",
+		"timeInMins": 30,
+		"categories": [
+			"Kyckling",
+			"Huvudrätt"
+		],
+		"instructions": [
+			"Koka riset enligt anvisningen på förpackningen.",
+			"Dela, kärna ur och skär paprikan i strimlor.",
+			"Stek kycklingen och paprikan i oljan i en stekpanna tills kycklingen är genomstekt, ca 5 minuter. Sänk värmen och rör i kokosmjölk och mango chutney. Låt sjuda i 2 minuter.",
+			"Skär salladen i bitar. Skär gräslöken tunt.",
+			"Servera grytan med ris, sallad och strö över gräslöken."
+		],
+		"ingredients": [
+			{
+				"name": "ris",
+				"amount": 1,
+				"unit": "port"
+			},
+			{
+				"name": "paprika",
+				"amount": 1,
+				"unit": "st"
+			},
+			{
+				"name": "strimlad kycklingfilé",
+				"amount": 300,
+				"unit": "g"
+			},
+			{
+				"name": "olja",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "kokosmjölk",
+				"amount": 2,
+				"unit": "dl"
+			},
+			{
+				"name": "mango chutney (het)",
+				"amount": 0.5,
+				"unit": "dl"
+			},
+			{
+				"name": "hjärtsallad",
+				"amount": 1,
+                "unit": "st"
+			},
+			{
+				"name": "färsk gräslök (à 20 g)",
+				"amount": 0.5,
+				"unit": "förp"
+			}
+		],
+		"ratings": 3
+	},
+	{
+		"title": "Panerad kyckling med dipp",
+		"description": "Krispig kyckling är minst sagt oerhört smarrigt. Här serveras den till ugnsbakad klyftpotatis, sallad, morötter och en smakrik dipp. Det är bara att äta och njuta!",
+		"imageUrl": "https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_237602/cf_259/panerad_kyckling_med_dipp.jpg",
+		"timeInMins": 45,
+		"categories": [
+			"Kyckling",
+			"Huvudrätt"
+		],
+		"instructions": [
+			"Sätt ugnen på 225°C.",
+			"Skär potatisen i klyftor och blanda med olja och krydda med salt och peppar. Häll ut potatisen på en ugnsplåt och sätt in mitt i ugnen ca 25 minuter.  ",
+			"Blanda crème fraichen med paprikapulver och oregano och smaka av med salt och peppar. ",
+			"Skala och fortsätt skala långa remsor av morötterna, eller skär dem i stavar. Skär salladen i bitar.  ",
+			"Krydda kycklingen med salt och peppar och pensla den med senapen. Vänd kycklingen i ströbröd och stek i oljan i en stekpanna ca 8 minuter. Vänd då och då. ",
+			"Servera kycklingen med klyftpotatis, dipp, sallad och morötter."
+		],
+		"ingredients": [
+			{
+				"name": "potatis",
+				"amount": 900,
+				"unit": "g"
+			},
+			{
+				"name": "olja",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "salt",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "peppar",
+				"amount": null,
+				"unit": ""
+			},
+			{
+				"name": "crème fraiche",
+				"amount": 2.5,
+				"unit": "dl"
+			},
+			{
+				"name": "paprikapulver",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "torkad oregano",
+				"amount": 1,
+				"unit": "tsk"
+			},
+			{
+				"name": "morätter",
+				"amount": 3,
+				"unit": "st"
+			},
+			{
+				"name": "cosmopolitansallad",
+				"amount": 0.5,
+				"unit": "st"
+			},
+			{
+				"name": "kycklinginnerfilé",
+				"amount": 600,
+				"unit": "g"
+			},
+			{
+				"name": "svensk senap",
+				"amount": 2,
+				"unit": "msk"
+			},
+			{
+				"name": "ströbröd (gärna panko)",
+				"amount": 1,
+				"unit": "dl"
+			},
+			{
+				"name": "olja",
+				"amount": 1,
+				"unit": "msk"
+			}
+		],
+		"ratings": [0]
+	}
+]

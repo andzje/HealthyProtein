@@ -34,3 +34,6 @@ form {
 	height: 30px;
 	border-radius: 5px;
 }
+.post span {
+	color:red
+}
