@@ -8,7 +8,12 @@ function Search() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    navigate("/searched/" + input);
+
+    if (input.trim()) {
+      navigate(`/searched/${input}`);
+    } else {
+      navigate("/searched");
+    }
   };
 
   return (
@@ -19,6 +24,7 @@ function Search() {
           type="text"
           value={input}
           placeholder="Sök"
+          onChangeCapture={(e) => setInput(e.target.value)}
         />
       </div>
     </form>

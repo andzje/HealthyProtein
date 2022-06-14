@@ -2,13 +2,35 @@
 	border-style: solid;
 	border-color: black;
 	border-radius: 5px;
-	border-width: 1.5px;
+	border-width: 1px;
 	margin-bottom: 10px;
+	height: 30px;
 }
 #comment {
 	border-style: solid;
 	border-color: black;
 	border-radius: 5px;
-	border-width: 1.5px;
+	border-width: 1px;
 	margin-bottom: 10px;
+	height: 60px;
+}
+.post {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #f2fee7;
+	
+}
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 300px;
+}
+.button {
+	background-color: #294909;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
 }

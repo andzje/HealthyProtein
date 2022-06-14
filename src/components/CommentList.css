@@ -1,1 +1,17 @@
+.comment-container {
+    background-color: #f2fee7;
+}
 
+.comment-list {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.comment-list hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+}

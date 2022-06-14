@@ -2,7 +2,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(35ch, 400px));
     gap:2rem;
+    justify-content: center;
 }
+
 .card {
     background-color: #F2FEE7;
 }

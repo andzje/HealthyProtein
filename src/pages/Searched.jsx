@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import RecipeCards from "../components/RecipeCards";
 
-function Searched() {
-	const [searchedRecipes, setSearchedRecipes] = useState([]);
-	let params = useParams();
+function Searched () {
+  const [searchedRecipes, setSearchedRecipes] = useState([]);
+  let params = useParams();
 
 	const getSearched = async (name) => {
 		const data = await fetch(
@@ -14,11 +14,11 @@ function Searched() {
 		setSearchedRecipes(recipes);
 	};
 
-	useEffect(() => {
-		getSearched(params.search);
-	}, [params.search]);
+  useEffect(() => {
+    getSearched(params.search);
+  }, [params.search]);
 
-	return <RecipeCards recipes={searchedRecipes} />;
+  return <RecipeCards recipes={searchedRecipes} />;
 }
 
 export default Searched;

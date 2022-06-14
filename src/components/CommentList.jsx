@@ -21,10 +21,12 @@ function CommentList() {
 				{data.name}
 				<br />
 				{data.comment}
-				<br />
+				<hr />
 			</>
 		);
 	});
-	return <div>{arr}</div>;
+	return <div className="comment-container">
+		<div className="comment-list">{arr}</div>
+		</div>;
 }
 export default CommentList;

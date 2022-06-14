@@ -30,6 +30,7 @@ function PostComment() {
 	return (
 		<div className="post">
 			<p>LÅT ANDRA VETA VAD DU TYCKTE OM RECEPTET</p>
+			<br />
 			<form onSubmit={(e) => submit(e)}>
 				Namn:{" "}
 				<input
@@ -37,15 +38,16 @@ function PostComment() {
 					id="name"
 					value={data.name}
 					type="text"
-				></input>
+
+				/>
 				Kommentar:{" "}
-				<input
+				<textarea
 					onChange={(e) => handle(e)}
 					id="comment"
 					value={data.comment}
 					type="text"
-				></input>
-				<button>Skicka</button>
+				/>
+				<button className="button" type="submit">Skicka</button>
 			</form>
 		</div>
 	);
